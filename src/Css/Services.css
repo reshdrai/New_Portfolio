@@ -1,0 +1,220 @@
+
+#services{
+    background-color: #101624;
+    width: 100vw;
+ 
+   
+}
+#services .services{
+    color: rgba(21, 27, 41, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 700;
+    z-index: 1;
+
+}
+.txt-services{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin:  0 0 1rem 0;
+
+}
+.txt-services span{
+    margin: 20px 0 0 0;
+    position: absolute;
+top: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fec544;
+    z-index: 1;
+}
+.services-icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    /* text-align: center; */
+}
+.services-icon svg{
+    width: 200px;
+    height: 100px;
+    position:relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items:center ;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 0 10px 0;
+    
+}
+.services-cont1 svg{
+    width: 120px;
+    height: 105px;
+    position:relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items:center ;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 0 10px 0;
+}
+.services-cont2 svg{
+    width: 120px;
+    height: 105px;
+    position:relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items:center ;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 0 10px 0;
+}
+.services-cont3 svg{
+    width: 120px;
+    height: 105px;
+    position:relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items:center ;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 0 10px 0;
+}
+.services-icon svg.icon{
+    width: 80px;
+
+
+}
+.services-cont svg.icon{
+    width: 100px;
+}
+.services-container{
+    text-align: center;
+}
+
+
+.cont{
+    padding: 3rem;
+}
+.services-title{
+    margin:0 0 1rem 0 ;
+    color: white;
+    font-size: larger;
+}
+.services-cont{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 25vw;
+    margin: 1rem 2rem 1rem 1rem;
+background-color: #101624;
+}
+.services-cont1{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 25vw;
+    margin: 1rem;
+background-color: #101624;
+}
+.services-cont2{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 25vw;
+    margin: 1rem 2rem 1rem 1rem;
+background-color: #101624;
+}
+.services-cont3{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 25vw;
+    margin: 1rem;
+background-color: #101624;
+}
+.services-cont:hover .services-icon svg path 
+{
+    fill: #fec544;
+    border-color: #fec544;
+    transition: 0.5s;
+}
+.services-cont:hover .services-icon svg{
+    border: 1px solid #fec544;
+    transition: 0.5s;
+}
+.services-cont:hover .services-title{
+    color:#fec544 ;
+    transition: 0.5s;
+}
+.services-cont1:hover .services-icon svg path 
+{
+    fill: #fec544;
+    border-color: #fec544;
+    transition: 0.5s;
+}
+.services-cont1:hover .services-icon svg{
+    border: 1px solid #fec544;
+    transition: 0.5s;
+}
+.services-cont1:hover .services-title{
+    color:#fec544 ;
+    transition: 0.5s;
+}
+.services-cont2:hover .services-icon svg path 
+{
+    fill: #fec544;
+    border-color: #fec544;
+    transition: 0.5s;
+}
+.services-cont2:hover .services-icon svg{
+    border: 1px solid #fec544;
+    transition: 0.5s;
+}
+.services-cont2:hover .services-title{
+    color:#fec544 ;
+    transition: 0.5s;
+}
+.services-cont3:hover .services-icon svg path 
+{
+    fill: #fec544;
+    border-color: #fec544;
+    transition: 0.5s;
+}
+.services-cont3:hover .services-icon svg{
+    border: 1px solid #fec544;
+    transition: 0.5s;
+}
+.services-cont3:hover .services-title{
+    color:#fec544 ;
+    transition: 0.5s;
+}
+.services-cont p{
+    color: #a9adb8;
+}
+.services-cont1 p{
+    color: #a9adb8;
+}
+.services-cont2 p{
+    color: #a9adb8;
+}
+.services-cont3 p{
+    color: #a9adb8;
+}
+@media screen and (max-width: 600px) {
+    .services-cont{
+        margin: 1rem 0;
+      }
+      .services-cont1{
+        margin: 1rem 0;
+      }
+      .services-cont2{
+        margin: 1rem 0;	
+      }
+      .services-cont3{
+        margin: 1rem 0;
+      }
+      #services .services{
+        font-size: 65px;
+      }
+
+}

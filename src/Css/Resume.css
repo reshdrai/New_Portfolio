@@ -1,0 +1,44 @@
+#resume{
+    background-color:#0a101e;
+    width: 100vw;
+}
+
+#resume .resume1{
+    color: rgba(21, 27, 41, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 700;
+    z-index: 1;
+
+}
+.txt-resume{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin:  0 0 1rem 0;
+
+}
+.txt-resume span{
+    margin: 20px 0 0 0;
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fec544;
+    z-index: 1;
+}
+/* .resume-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-wrap: wrap;
+} */
+@media screen and (max-width: 600px) {
+    #resume .resume1{
+        font-size: 65px;
+    }
+}
