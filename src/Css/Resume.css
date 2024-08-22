@@ -1,6 +1,6 @@
 #resume{
     background-color:#0a101e;
-    width: 100vw;
+    width: 100%;
 }
 
 #resume .resume1{
@@ -32,29 +32,42 @@
     color: #fec544;
     z-index: 1;
 }
-.experience-container{
+.experience-cont, 
+.experience-cont1, 
+.experience-cont2, 
+.experience-cont3 {
     position: relative;
 }
-.experience-container::before{
-position: absolute;
-content: "";
-width: 13px;
-height: 13px;
-border-radius: 50%;
-top: 0px;
-border: 2px solid #232935;
-background-color: #101624;
-left: -8px;
+
+.experience-cont::before, 
+.experience-cont1::before, 
+.experience-cont2::before, 
+.experience-cont3::before {
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    top: 0;
+    border: 2px solid #232935;
+    background-color: #101624;
+    left: -48px;
 }
 
-svg{
+.experience-cont:hover::before, 
+.experience-cont1:hover::before, 
+.experience-cont2:hover::before, 
+.experience-cont3:hover::before {
+    background-color: #fec544;
+    transition: 0.5s;
+}
+
+ #resume svg{
     position: relative;
     width: 70px;
     height: 50px;
 }
-.experience-const:hover .experience-container::before{
-    background-color: #fec544;
-}
+
 @media screen and (max-width: 600px) {
     #resume .resume1{
         font-size: 65px;

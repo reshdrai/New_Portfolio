@@ -1,17 +1,20 @@
 #about_us {
-width: 100vw;
+width: 100%;
 background-color: #0a101e;
 /* height: 80vh; */
 }
 .hero-section{
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     background-color: #0a101e;
 }
 .hero-section2{
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     background-color: #101624;
+}
+.container2{
+    padding: 1rem;
 }
 #about_us .aboutus{
     color: rgba(21, 27, 41, 0.5);
@@ -24,9 +27,6 @@ background-color: #0a101e;
     font-weight: 700;
     z-index: 1;
 
-}
-.container2{
-    padding: 1rem;
 }
 .txt-aboutus{
     position: relative;

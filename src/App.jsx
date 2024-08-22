@@ -9,6 +9,8 @@ import Skills from "./Header/Skills"
 import './Css/Skills.css'
 import Resume from "./Header/Resume"
 import './Css/Resume.css'
+import Portfolio from "./Header/Portfolio"
+import './Css/Portfolio.css'
 function App() {
  
 
@@ -20,6 +22,7 @@ function App() {
       <Services/>
       <Skills/>
      <Resume/>
+     <Portfolio/>
      </div>
     </>
   )

@@ -18,7 +18,7 @@ function Resume() {
            
           <div className="experience-container" style={{borderLeft : '1px solid #232935', padding : "0 0 0 2.5rem",margin : '2rem 0 0 0' }}>
             <div className="experience-cont" style={{
-          padding :' 0 0 2rem 0'
+          padding :' 0 0 1rem 0'
             }}>
             <h2 style={{margin : '0 0 12px 0', color :"#fec544"}}>React developer</h2>
             <h6 style={{margin : '0 0 1rem 0', color : '#a9adb8'}}>May 2023 - Present</h6>
@@ -26,10 +26,10 @@ function Resume() {
           <p style={{color : '#a9adb8'}}>
           With a year of experience as a React developer, I specialize in building dynamic, responsive web applications, focusing on clean code and seamless user interactions.</p>
           </div>
-          </div>
+        
 
-          <div className="experience-container" style={{borderLeft : '1px solid #232935', padding : "0 0 0 2.5rem",margin : '0 0 0 0' }}>
-            <div className="experience-cont" style={{
+     
+            <div className="experience-cont1" style={{
           padding :' 0 0 0 0'
             }}>
             <h2 style={{margin : '0 0 12px 0', color :"#fec544"}}>Java developer</h2>
@@ -44,8 +44,8 @@ function Resume() {
         <svg fill="rgba(255, 255, 255, 0.1)" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M197.769 791.767l60.672-286.853c2.341-11.066-4.733-21.934-15.799-24.275s-21.934 4.733-24.275 15.799l-60.672 286.853c-2.341 11.066 4.733 21.934 15.799 24.275s21.934-4.733 24.275-15.799zm571.063-286.786l61.778 287.068c2.38 11.058 13.273 18.093 24.33 15.713s18.093-13.273 15.713-24.33l-61.778-287.068c-2.38-11.058-13.273-18.093-24.33-15.713s-18.093 13.273-15.713 24.33z"></path><path d="M967.45 386.902L535.9 208.126c-10.609-4.399-30.569-4.442-41.207-.088L57.821 386.901l436.881 178.857c10.624 4.355 30.583 4.313 41.207-.085L967.45 386.901zM551.583 603.516c-20.609 8.533-51.787 8.599-72.409.145L24.437 417.494c-32.587-13.359-32.587-47.847.009-61.188l454.73-186.174c20.641-8.448 51.818-8.382 72.407.156l448.836 185.936c32.466 13.442 32.466 47.913.004 61.354l-448.84 185.938zm288.673 166.569c-98 57.565-209.669 88.356-325.888 88.356-116.363 0-228.162-30.866-326.246-88.564-9.749-5.735-22.301-2.481-28.036 7.268s-2.481 22.301 7.268 28.036c104.336 61.377 223.297 94.22 347.014 94.22 123.564 0 242.386-32.763 346.634-93.998 9.753-5.729 13.015-18.279 7.286-28.032s-18.279-13.015-28.032-7.286z"></path><path d="M983.919 383.052v296.233c0 11.311 9.169 20.48 20.48 20.48s20.48-9.169 20.48-20.48V383.052c0-11.311-9.169-20.48-20.48-20.48s-20.48 9.169-20.48 20.48z"></path></g></svg><span style={{fontSize : '42px'}}>Education</span>
          
            
-         <div className="experience-container" style={{borderLeft : '1px solid #232935', padding : "0 0 0 2.5rem",margin : '2rem 0 0 0' }}>
-           <div className="experience-cont" style={{
+         <div className="experience-container2" style={{borderLeft : '1px solid #232935', padding : "0 0 0 2.5rem",margin : '2rem 0 0 0' }}>
+           <div className="experience-cont2" style={{
          padding :' 0 0 2rem 0'
            }}>
            <h2 style={{margin : '0 0 12px 0', color :"#fec544"}}>
@@ -55,15 +55,15 @@ function Resume() {
          <p style={{color : '#a9adb8'}}>
          I'm currently pursuing a BSc (Hons) in Software Engineering at PCPS College, affiliated with the University of Bedfordshire.</p>
          </div>
-         </div>
+         
 
-         <div className="experience-container" style={{borderLeft : '1px solid #232935', padding : "0 0 0 2.5rem",margin : '0 0 0 0' }}>
-           <div className="experience-cont" style={{
-         padding :' 0 0 2.6rem 0'
+         
+           <div className="experience-cont3" style={{
+         padding :' 0 0 4rem 0'
            }}>
            <h2 style={{margin : '0 0 12px 0', color :"#fec544"}}>High School</h2>
            <h6 style={{margin : '0 0 1rem 0', color : '#a9adb8'}}>May 2021 - 2023</h6>
-         <h5 style={{margin :" 0 0 1.24em 0"}}>Pinnacle Academy</h5>
+         <h5 style={{margin :" 0 0 0 0"}}>Pinnacle Academy</h5>
          <p style={{color : '#a9adb8', }}>
          I completed my high schooling at Pinnacle Academy.</p>
          </div>
@@ -72,6 +72,7 @@ function Resume() {
         </div>
         </div>
         </div>
+        <div className="hero-section"></div>
     </section>
   )
 }

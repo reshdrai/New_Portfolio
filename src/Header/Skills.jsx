@@ -12,7 +12,7 @@ function Skills() {
         </div>
         <div className="skills-container">
             <div className="row">
-            <div className="skills-left col-lg-5 col-sm-12">
+            <div className="skills-left col-lg-6 col-sm-12">
                 <h2>All the skills that I have in the field of work are mentioned.</h2>
                 <p style={{color : '#a9adb8', padding : '1.6rem 0 0 0'}}>I specialize in designing and developing responsive, visually appealing websites using HTML, CSS, and JavaScript, with a strong focus on accessibility and user experience. I also have experience in front-end development with React, creating dynamic web applications with reusable components.<br/><br/> Additionally, I offer basic back-end services using Java and Spring Boot, setting up RESTful APIs and handling server-side logic. I provide ongoing website maintenance to keep sites updated, secure, and optimized for performance.</p>
             </div>
