@@ -9,6 +9,7 @@ function Blog() {
             
         <h3 className='blog'>Blog</h3>
           <span>  Blog</span>
+          <div className="line"></div>
         </div>
         <div className="blog-container">
             <div className="row">
@@ -36,6 +37,7 @@ function Blog() {
       
         </div>
         </div>
+        <div className="hero-section"></div>
         <div className="hero-section"></div>
     </section>
   )

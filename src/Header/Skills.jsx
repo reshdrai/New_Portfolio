@@ -1,14 +1,16 @@
 import React from 'react'
 
 function Skills() {
-  return (
+  return (<>
+  <div className="hero-section"></div>
     <section id="skills">
-        <div className="hero-section"></div>
+        
         <div className="container1">
         <div className="txt-skills">
             
         <h3 className='skills'>Skills</h3>
           <span>skills</span>
+          <div className="line"></div>
         </div>
         <div className="skills-container">
             <div className="row">
@@ -87,6 +89,7 @@ function Skills() {
         </div>
         <div className="hero-section"></div>
     </section>
+    </>
   )
 }
 

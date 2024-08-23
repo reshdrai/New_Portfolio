@@ -9,6 +9,7 @@ function Services() {
             
             <h3 className='services'>Services</h3>
               <span>  Services</span>
+              <div className="line"></div>
             </div>
             <div className="services-container">
                 <div className="row">

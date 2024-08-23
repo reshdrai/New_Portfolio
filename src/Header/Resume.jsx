@@ -3,11 +3,13 @@ import React from 'react'
 function Resume() {
   return (
     <section id="resume">
+      <div className="hero-section"></div>
         <div className="container1">
         <div className="txt-resume">
             
         <h3 className='resume1'>Resume</h3>
           <span>Resume</span>
+          <div className="line"></div>
         </div>
         <div className="resume-container" >
             <div className="row">

@@ -14,21 +14,23 @@ function Contact() {
         })
         .then(
           () => {
-            console.log('SUCCESS!');
+            alert('SUCCESS!');
           },
           (error) => {
-            console.log('FAILED...', error.text);
+            alert('FAILED...', error.text);
           },
         );
     };
-  return (
+  return (<>
+  <div className="hero-section"></div>
    <section id="contact">
-     <div className="hero-section"></div>
+     
     <div className="container1">
         <div className="txt-contactme">
             
         <h3 className='contactme'>Contact Me</h3>
           <span>Contact Me</span>
+          <div className="line"></div>
         </div>
 
 <div className="contact-container">
@@ -78,16 +80,17 @@ function Contact() {
                     </div>
                 </div>
                 <h5 style={{ color : '#a9adb8'}}>Visit my social profile and get connected</h5>
-                <div className="social-media">
-                    <div className="social-icon">
+
+               <div className="social-media">
+               <a href="https://www.linkedin.com/in/resh-dewan-rai-123897292/" target='_blank'>  <div className="social-icon">
                     <i class="fa-brands fa-linkedin"></i><span>Linkedin</span>
-                    </div>
-                    <div className="social-icon">
+                    </div></a>
+                   <a href="https://x.com/reshdewan_rai" target='_blank'> <div className="social-icon">
                     <i class="fa-brands fa-twitter"></i><span>Twitter</span>
-                    </div>
-                    <div className="social-icon">
+                    </div></a>
+                    <a href="https://www.upwork.com/freelancers/~01cd511f590fb5d2ca" target='_blank'><div className="social-icon">
                     <i class="fa-brands fa-square-upwork"></i><span>Upwork</span>
-                    </div>
+                    </div></a>
                 </div>
             </div>
            
@@ -99,6 +102,7 @@ function Contact() {
 
         </div> <div className="hero-section"></div>
    </section>
+   </>
   )
 }
 

@@ -1,14 +1,16 @@
 import React from 'react'
 
 function About() {
-  return (
+  return (<>
+  <div className="hero-section"></div>
  <section id='about_us'>
-    <div className="hero-section"></div>
+    
     <div className="container1">
         <div className="txt-aboutus">
             
         <h3 className='aboutus'>About Me</h3>
           <span>  about me</span>
+          <div className="line"></div>
         </div>
         <div className="container2">
           <div className="row">
@@ -63,6 +65,7 @@ function About() {
     </div>
 
  </section>
+ </>
   )
 }
 

@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-import { CiPhone } from "react-icons/ci";
+import { Link } from 'react-scroll';
+
+
 function Main_header() {
   const [scrolled, setScrolled] = useState(false)
   const [onmenu, SetOnmenu] = useState(false)
@@ -22,34 +24,36 @@ function Main_header() {
             <h5 className="logo"><span>R</span>esh</h5>
             
       <ul className='topmenu'>
-          <li className="home">home</li>
-          <li className="about">about</li>
-          <li className="resume">resume</li>
-          <li className="portfolio">portfolio</li>
-          <li className="blog">blog</li>
-          <li className="contact">contact</li>
+      <Link activeClass='active' to='blank' spy={true} smooth={true} offset={-100} duration={500} ><li className="home">home</li></Link>
+        <Link activeClass='active' to='about_us' spy={true} smooth={true} offset={-100} duration={500} ><li className="about">about</li></Link>
+        <Link activeClass='active' to='resume' spy={true} smooth={true} offset={-100} duration={500} ><li className="resume">resume</li></Link>
+        <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-100} duration={500} > <li className="portfolio">portfolio</li></Link>
+          <Link activeClass='active' to='blog' spy={true} smooth={true} offset={-100} duration={500} ><li className="blog">blog</li></Link>
+          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} > <li className="contact">contact</li></Link>
           <li className="slash">|</li>
           <li className="number"> <i class="fa-solid fa-phone"></i> &nbsp;&nbsp;&nbsp;+977 9766462245</li>
           </ul>
 
           <div className="menu-container">
           <button className='mobmenu' onClick={()=>{
-            SetOnmenu(true)
-          }}>
-            <div className="one"></div>
-            <div className="two"></div>
-            <div className="three"></div>
+           SetOnmenu(!onmenu)
+            
+          }} >
+            <div className="one" style={{transform: onmenu ? 'translateY(5px) rotate(47deg)' : 'none'}}></div>
+            <div className="two" style={{ opacity: onmenu ? '0' : '1'}}></div>
+            <div className="three" style={{transform: onmenu ? 'translateY(-11px) rotate(-47deg)' : 'none'}}></div>
           </button>
           {onmenu ?(
-          <ul className='menu'> 
-          <li className="home">home</li>
-          <li className="about">about</li>
-          <li className="resume">resume</li>
-          <li className="portfolio">portfolio</li>
-          <li className="blog">blog</li>
-          <li className="contact">contact</li>
-          <li className="slash">|</li>
-          <li className="number"> <i class="fa-solid fa-phone"></i> &nbsp;&nbsp;&nbsp;+977 9766462245</li>
+          <ul className='menu' style={{height : onmenu? '22rem': '0', transition: '0.5s'}}> 
+          <div className="main-container">
+          <Link activeClass='active' to='blank' spy={true} smooth={true} offset={-100} duration={500} onClick={()=>SetOnmenu(!onmenu)}><li className="home">home</li></Link>
+        <Link activeClass='active' to='about_us' spy={true} smooth={true} offset={-100} duration={500} onClick={()=>SetOnmenu(!onmenu)}><li className="about">about</li></Link>
+        <Link activeClass='active' to='resume' spy={true} smooth={true} offset={-100} duration={500} onClick={()=>SetOnmenu(!onmenu)}><li className="resume">resume</li></Link>
+        <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-100} duration={500} onClick={()=>SetOnmenu(!onmenu)}> <li className="portfolio">portfolio</li></Link>
+          <Link activeClass='active' to='blog' spy={true} smooth={true} offset={-100} duration={500} onClick={()=>SetOnmenu(!onmenu)}><li className="blog">blog</li></Link>
+          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={()=>SetOnmenu(!onmenu)}> <li className="contact">contact</li></Link>
+
+          </div>
           </ul>) :('')}
           </div>
           </div>
@@ -58,7 +62,7 @@ function Main_header() {
 
     
 
-<section className='blank'>
+<section id='blank'>
         <div className="container1">
           <div className="txt-grp">
           <h1 className="txt-title">Hi, I am <span>Resh Dewan Rai</span></h1>
