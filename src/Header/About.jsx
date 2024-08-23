@@ -1,5 +1,5 @@
 import React from 'react'
-
+import newImage from '../assets/new1.jpg';
 function About() {
   return (<>
   <div className="hero-section"></div>
@@ -16,7 +16,7 @@ function About() {
           <div className="row">
           <div className="left-grid col-lg-6 col-sm-12">
             <div className="left-image">
-            <img src="src/assets/new1.jpg" alt="resh's photo" />
+            <img src={newImage} alt="resh's photo" />
             </div></div>
         <div className="right-grid col-lg-6 col-sm-12">
           <h2>Hi There! I'm Resh Dewan Rai</h2>
