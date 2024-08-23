@@ -1,0 +1,151 @@
+#contact{
+    background-color: #0a101e;
+    width: 100%;
+}
+#contact .contactme{
+    color: rgba(21, 27, 41, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 700;
+    z-index: 1;
+    
+}
+.txt-contactme{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin:  0 0 1rem 0;
+    
+}
+.txt-contactme span{
+    margin: 20px 0 0 0;
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fec544;
+    z-index: 1;
+}
+
+#contact .cont{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color:#0a101e ;
+}
+.cont input{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0 0.5rem 0;
+    border-radius: 10px;
+    color: #a9adb8;
+    border: 1px solid #232935;
+    background-color: #101624;
+    height: 52px;
+    transition: all 0.4s ease-in-out;
+    /* outline: 1px solid #fec544; */
+}
+input::placeholder {
+    color: #a9adb8; 
+    opacity: 1;  
+}
+input:focus {
+    border-color: #fec544; 
+    outline: none;
+}
+
+textarea{
+    height: 150px;
+    color: #a9adb8;
+    border: 1px solid #232935;
+    background-color: #101624;
+    width: 100%;
+    padding: 1.2rem;
+    margin: 1rem 0 0.5rem 0;
+    border-radius: 10px;
+}
+textarea:focus{
+    border-color: #fec544; 
+    outline: none;
+}
+.contact-email .icon i{
+    width: 60px;
+    height: 60px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0.2rem 1.5rem 0 0;
+    border: 0.5px solid #3f4551;
+    color: #3f4551;
+}
+.contact-email h6{
+    color: #a9adb8;
+}
+.contact-email:hover i{
+    border: 1px solid #fec544;
+}
+h6:hover {
+    color: #fec544;
+}
+.social-media{
+    margin: 2rem 0 0 0;
+    display: flex;
+}
+.social-icon{
+    /* display: flex; */
+    padding: 12px 13px 13px 13px;
+    border:1px solid #3f4551;
+    width: 50px;
+    height: 50px;
+   border-radius: 50px;
+   transition: all 0.1s ease-in;
+   margin: 0 1.2rem 0 0;
+}
+.social-icon i{
+    
+    border-radius: 50%;
+    font-size: x-large;
+    color: #3f4551;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin: 0 1rem 0 0;
+   
+}
+.contact-left{
+    margin: 0 0 1rem 0;
+}
+.contact-right{
+    margin: 0 0 1rem 0;
+}
+.social-icon span{
+    visibility: hidden;
+    color: white;
+    transition: all 0.1s ease-in;
+    color: #fdfeff;
+    
+
+}
+.social-icon:hover span{
+    visibility: visible;
+    
+}
+.social-icon:hover{
+    width: 150px;
+    height: 500x;
+    border-radius: 50px;
+}
+@media screen and (max-width: 600px) {
+    #contact .contactme{
+        font-size: 55px;
+    }
+}

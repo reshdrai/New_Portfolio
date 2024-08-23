@@ -1,0 +1,70 @@
+#blog{
+width: 100%;
+background-color: #0a101e;
+}
+#blog .blog{
+    color: rgba(21, 27, 41, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 700;
+    z-index: 1;
+
+}
+.txt-blog{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin:  0 0 1rem 0;
+
+}
+.txt-blog span{
+    margin: 20px 0 0 0;
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fec544;
+    z-index: 1;
+}
+
+.blog-cont .blog-image,
+.blog-cont1 .blog-image,
+.blog-cont2 .blog-image
+{
+    display: block;
+    overflow: hidden;
+    
+}
+.blog-cont .blog-image img,
+.blog-cont1 .blog-image img,
+.blog-cont2 .blog-image img
+{
+    width: 100%;
+    height: auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.blog-grp:hover img,
+.blog-grp1:hover img,
+.blog-grp2:hover img
+{
+    transform: scale(1.1);
+    
+}
+.blog-cont h4:hover,
+.blog-cont1 h4:hover,
+.blog-cont2 h4:hover
+{
+    color: #fec544;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    #blog .blog{
+        font-size: 55px;
+    }
+}

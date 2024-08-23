@@ -64,6 +64,7 @@ function Portfolio() {
             </div>
         </div>
         </div>
+        <div className="hero-section2"></div>
     </section>
   )
 }

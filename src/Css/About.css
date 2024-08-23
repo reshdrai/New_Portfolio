@@ -1,7 +1,7 @@
 #about_us {
 width: 100%;
 background-color: #0a101e;
-/* height: 80vh; */
+
 }
 .hero-section{
     height: 10vh;
@@ -13,9 +13,6 @@ background-color: #0a101e;
     width: 100%;
     background-color: #101624;
 }
-.container2{
-    padding: 1rem;
-}
 #about_us .aboutus{
     color: rgba(21, 27, 41, 0.5);
     position: relative;
@@ -26,24 +23,27 @@ background-color: #0a101e;
     font-size: 90px;
     font-weight: 700;
     z-index: 1;
-
+    
 }
 .txt-aboutus{
     position: relative;
     color: white;
     text-align: center;
     margin:  0 0 1rem 0;
-
+    
 }
 .txt-aboutus span{
     margin: 20px 0 0 0;
     position: absolute;
-top: 0;
+    top: 0;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 500;
     color: #fec544;
     z-index: 1;
+}
+.container2{
+    padding: 1rem;
 }
 
 .txt-aboutus span ::before{

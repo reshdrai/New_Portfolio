@@ -11,6 +11,13 @@ import Resume from "./Header/Resume"
 import './Css/Resume.css'
 import Portfolio from "./Header/Portfolio"
 import './Css/Portfolio.css'
+import Blog from "./Header/Blog"
+import './Css/Blog.css'
+import Contact from "./Header/Contact"
+import './Css/Contact.css'
+import Footer from "./Header/Footer"
+import './Css/Footer.css'
+
 function App() {
  
 
@@ -23,6 +30,9 @@ function App() {
       <Skills/>
      <Resume/>
      <Portfolio/>
+     <Blog/>
+     <Contact/>
+     <Footer/>
      </div>
     </>
   )
