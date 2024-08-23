@@ -1,5 +1,6 @@
 import React from 'react'
 import newImage from '../assets/new1.jpg';
+import cv from '../assets/Cv.pdf'
 function About() {
   return (<>
   <div className="hero-section"></div>
@@ -56,7 +57,7 @@ function About() {
           </li>
          </ul>
           </div>
-         <div className="cv"> <a href="src/assets/Cv.pdf" download>Download Cv</a></div>
+         <div className="cv"> <a href={cv} download>Download Cv</a></div>
         </div>
         </div>
         </div>
