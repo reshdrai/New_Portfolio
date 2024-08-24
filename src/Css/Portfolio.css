@@ -215,10 +215,10 @@ height: 100%;
         opacity: 0.8;
         /* transform: translate(-50%, -50%); */
     }
-    .portfolio-grp:hover  img,
-.portfolio-grp2:hover  img,
-.portfolio-grp3:hover  img,
-.portfolio-grp4:hover  img
+    .portfolio-grp  img,
+.portfolio-grp2  img,
+.portfolio-grp3  img,
+.portfolio-grp4  img
 {
     transform: scale(1);
 }

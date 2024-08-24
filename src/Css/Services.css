@@ -53,6 +53,9 @@
     left: 0;
     height: 2px;
 }
+.services-container div.row{
+    justify-content: center;
+}
 .txt-services .line::after{
     content: "";
     position: absolute;
