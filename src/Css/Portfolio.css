@@ -209,18 +209,19 @@ height: 100%;
         top: 50%;
         transform: translate(-50%, -50%);
         visibility: visible;
-        z-index: 5;
+        z-index: 2;
         text-align: center;
         transition: all 0.4s ease;
         opacity: 0.8;
-        /* transform: translate(-50%, -50%); */
+        
     }
-    .portfolio-grp  img,
-.portfolio-grp2  img,
-.portfolio-grp3  img,
-.portfolio-grp4  img
+    .portfolio-grp:hover  img,
+.portfolio-grp2:hover  img,
+.portfolio-grp3:hover  img,
+.portfolio-grp4:hover  img
 {
-    transform: scale(1);
+    transform: none;
 }
+
 
 }
